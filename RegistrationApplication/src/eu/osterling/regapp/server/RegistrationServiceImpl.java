@@ -20,7 +20,7 @@ public class RegistrationServiceImpl extends RemoteServiceServlet
 	   OutputMessage outputMessage;
 	   
 	   if (inputMessage.getMessage().equals(InputMessage.ERROR)){
-		   outputMessage = new OutputMessage("Error: The name entered is not completename. Try again");
+		   outputMessage = new OutputMessage("Error: The name entered is not complete. Try again");
 		   
 	   } else if (inputMessage.getMessage().equals(InputMessage.CLEAR)){
 		   list.clear();
