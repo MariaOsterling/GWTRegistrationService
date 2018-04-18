@@ -1,0 +1,2 @@
+serviceClass: eu.osterling.regapp.client.RegistrationService
+path: 10B82982843E7CD4F3CBA537F3F4C614.gwt.rpc

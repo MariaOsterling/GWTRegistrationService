@@ -1,0 +1,29 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+   xmlns:gwt='urn:import:com.google.gwt.user.client.ui' 
+   xmlns:res='urn:with:eu.osterling.regapp.client.RegistrationResources'>
+   <ui:with type="eu.osterling.regapp.client.RegistrationResources" field="res">
+   </ui:with>
+   <gwt:HTMLPanel>
+      <div align="center">
+         <gwt:VerticalPanel res:styleName="style.background">
+			<gwt:HorizontalPanel>
+				<gwt:Label text="Enter first name" res:styleName="style.blackText" />
+				<gwt:TextBox ui:field="firstNameTxt" res:styleName="style.box" />
+			</gwt:HorizontalPanel>
+			<gwt:HorizontalPanel>
+				<gwt:Label text="Enter last name" res:styleName="style.blackText" />
+				<gwt:TextBox ui:field="lastNameTxt" res:styleName="style.box" />
+			</gwt:HorizontalPanel>
+			<gwt:HorizontalPanel>
+               	<gwt:Button ui:field="submitButton" text="Submit"
+               	res:styleName="style.button2" />
+               	<gwt:Button ui:field="showListButton" text="Show list"
+               	res:styleName="style.button2" />
+				<gwt:Button ui:field="clearListButton" text="Clear list"
+               	res:styleName="style.button2" />
+			</gwt:HorizontalPanel>
+         </gwt:VerticalPanel>
+      </div>
+   </gwt:HTMLPanel>
+</ui:UiBinder>
